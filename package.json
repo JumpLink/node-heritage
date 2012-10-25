@@ -1,0 +1,9 @@
+{
+  "name": "node-heritage",
+  "description": "",
+  "version": "0.1",
+  "author": "Pascal Garber <pascal.garber@gmail.com>",
+  "dependencies": {
+    "fetch": "*"
+  }
+}
