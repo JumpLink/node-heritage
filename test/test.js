@@ -1,5 +1,10 @@
-function test_get_product(sku, cb) {
-  json_shop.get_products(json_shop.parse_info_filter(sku, null), function(data){
-    cb(sku, data);
-  });
-}
+// sublime: tab_size 2; translate_tabs_to_spaces true
+
+var config = require('json-config').open(__dirname+"/config/config.json");
+
+var heritage = require('../lib/heritage.js')(config);
+
+
+heritage.get_product("021-198-009/B", function(data) {
+  console.log(data);
+});

@@ -1,9 +1,14 @@
 {
-  "name": "node-heritage",
-  "description": "",
-  "version": "0.1",
+  "name": "heritage",
+  "description": "Node.js Heritage API",
+  "version": "0.0.1",
   "author": "Pascal Garber <pascal.garber@gmail.com>",
   "dependencies": {
     "fetch": "*"
-  }
+  },
+  "devDependencies": {
+  	"json-config": "git://github.com/JumpLink/node-json-config.git"
+  },
+  "main": "index",
+  "repository": "git://github.com/JumpLink/node-heritage.git"
 }
