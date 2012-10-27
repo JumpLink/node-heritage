@@ -12,5 +12,5 @@ logs
 results
 config
 
-node_modules
+fetch
 npm-debug.log

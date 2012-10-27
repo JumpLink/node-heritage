@@ -7,7 +7,7 @@
     "fetch": "*"
   },
   "devDependencies": {
-  	"json-config": "git://github.com/JumpLink/node-json-config.git"
+  	"json-fs": "git://github.com/JumpLink/node-json-fs.git"
   },
   "main": "index",
   "repository": "git://github.com/JumpLink/node-heritage.git"
