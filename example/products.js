@@ -1,6 +1,6 @@
 // sublime: tab_size 2; translate_tabs_to_spaces true
 
-var config = require('json-config').open(__dirname+"/config/config.json");
+var config = require('json-fs').open(__dirname+"/config/config.json");
 
 var heritage = require('../lib/heritage.js')(config);
 
